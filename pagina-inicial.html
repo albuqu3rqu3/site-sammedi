@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Página Inicial - SAMMEDI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="modoNoturnoBtn" title="Modo noturno">🌙</button>
+  <button id="sairBtn" title="Sair">Sair</button>
+
+  <div class="container cards-container">
+  <div class="card" data-link="https://profissional-sammedi.spolus.io/">
+      <h3 class="title">Demonstrativos de Plantões</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+    <div class="card" data-link="https://docs.google.com/forms/d/e/1FAIpQLScO6kWUv15M1Gww6UfcmuPRAbyYe6fZmUHwdeE405rhJ_bZ5w/viewform">
+      <h3 class="title">Formulário de Notificação</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+    <div class="card" data-link="https://drive.google.com/drive/folders/1TGN4GR0qcY5EsTj2ayhHKyELQiQZdPVT">
+      <h3 class="title">Acesso aos Potocolos (Solicite Acesso)</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+        <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+    <div class="card" data-link="https://docs.google.com/forms/d/e/1FAIpQLSeesftjCx2MOK9Gx_88xP2HiH9TKlMq_v7V08gk2g_lMYVr4A/viewform">
+      <h3 class="title">Interconsulta Equipe de Dor</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+    <div class="card" data-link="https://drive.google.com/file/d/1k7zCxZbMZ87noMPxYMtqh_fKQ5_GUPZC/view">
+      <h3 class="title">Manual do Novo Integrante</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+  <div class="card" data-link="https://docs.google.com/forms/d/e/1FAIpQLSfbuP8pyRVNImyN3NAWskQ--zw1J8l3s5NJ9HhQ3Tlt2Ds_Zw/viewform">
+      <h3 class="title">Ouvidoria</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+  <div class="card" data-link="https://drive.google.com/file/d/1BuRwJ760BrOrLD30stdwLyYNleqf6aHM/view">
+      <h3 class="title">Guia Rápido Pirituba</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+    <div class="card" data-link="https://drive.google.com/file/d/1vO2FKEHtx1OErwXdlfoedu0Eb3bVZItu/view">
+      <h3 class="title">CBHPM</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+      </div>
+      <div class="circle">
+         <img src="logo sammedi ORIGINAL.png" alt="Logo SAMMEDI" style="width:70px; height:70px; object-fit:contain;">
+      </div>
+    </div>
+
+<style>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f0f4ff, #dce9ff);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Container principal com fundo branco */
+.container {
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  max-width: 1300px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.container p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.botao {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0a74da;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.botao:hover {
+  background-color: #095ab3;
+  transform: scale(1.03);
+}
+
+#modoNoturnoBtn {
+  position: absolute;
+  top: 20px;
+  left: -1420px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  z-index: 10;
+}
+
+#modoNoturnoBtn:hover {
+  transform: scale(1.2);
+}
+
+/* Botão sair no canto superior direito */
+#sairBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 10;
+}
+#sairBtn:hover {
+  background: #c0392b;
+}
+
+/* Modo escuro */
+body.dark {
+  background: linear-gradient(to bottom right, #121212, #1e1e1e);
+  color: #f0f0f0;
+}
+
+body.dark .container {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+}
+
+body.dark .container p {
+  color: #ccc;
+}
+
+body.dark .botao {
+  background-color: #5b8dfd;
+}
+
+body.dark .botao:hover {
+  background-color: #3e6fd9;
+}
+
+/* Container dos cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+/* Estilo de cada card */
+.card {
+  background: #f5f5f5;
+  border-radius: 15px;
+  padding: 50px;
+  flex: 1 1 200px;
+  max-width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0,154,217,0.5);
+}
+
+.card .title {
+  font-size: 1rem;
+}
+
+/* Estilo do círculo */
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+}
+
+.circle svg {
+  width: 80px;
+  height: 80px;
+}
+
+
+/* Modo escuro para os cards */
+body.dark .cards-container .card {
+  background-color: #3a3a3a;
+  color: #eee;
+  box-shadow: 0 0 15px rgba(0,154,217,0.7);
+}
+
+body.dark .cards-container .card .title {
+  color: #fff;
+}
+
+body.dark .cards-container .card .bar .emptybar,
+body.dark .cards-container .card .bar .filledbar {
+  background-color: #555;
+}
+
+body.dark .cards-container .card .circle svg circle.stroke {
+  stroke: #eee;
+}
+
+body.dark .acessar-btn {
+  background-color: #5b8dfd;
+}
+
+body.dark .acessar-btn:hover {
+  background-color: #3e6fd9;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff; /* fundo branco para SVG */
+  margin: 20px auto;
+}
+
+/* Para telas menores que 900px (tablets e celulares) */
+@media (max-width: 900px) {
+  .container {
+    padding: 20px 10px;
+    max-width: 100%;
+  }
+  .cards-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .card {
+    max-width: 100%;
+    width: 90vw;
+    height: auto;
+    padding: 30px 10px;
+  }
+}
+
+/* Para telas menores que 600px (celulares) */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px 2px;
+  }
+  .card {
+    padding: 20px 5px;
+    font-size: 0.95rem;
+  }
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+}
+</style>
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector(".container");
+  const modoNoturnoBtn = document.getElementById("modoNoturnoBtn");
+
+  // Animação de entrada
+  container.style.opacity = 0;
+  container.style.transform = "translateY(-20px)";
+  setTimeout(() => {
+    container.style.transition = "all 0.5s ease";
+    container.style.opacity = 1;
+    container.style.transform = "translateY(0)";
+  }, 100);
+
+  // Alternância de modo noturno
+  modoNoturnoBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    modoNoturnoBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  });
+
+  // Clique nos cards
+  document.querySelectorAll('.card').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => {
+      const link = card.getAttribute('data-link');
+      if (link) window.open(link, '_blank');
+    });
+  });
+});
+
+// Botão sair
+  document.getElementById('sairBtn').addEventListener('click', () => {
+    window.location.href = 'index.html';
+  });
+</script>
+</body>
+</html>
